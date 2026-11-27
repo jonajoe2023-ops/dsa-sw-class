@@ -104,7 +104,7 @@ You should see Ada book 2 of 3 seats, Bayo refused for asking for 2 when only 1 
 npm run benchmark
 ```
 
-It looks up 500 bookings among 100,000, once with `Array.find` and once with `Map.get`. The exact times depend on your computer, but the Map should be hundreds of times faster. Open `scripts/benchmark-lookup.js`, double `BOOKINGS`, and run it again. Which number grows, and which stays flat?
+It performs 10,000 lookups among 100,000 bookings, using `Array.find` and `Map.get`. The exact times depend on your computer, but the Map should be much faster. Open `scripts/benchmark-lookup.js`, change `BOOKING_COUNT` or `LOOKUP_COUNT`, and run it again. Which number grows, and which stays flat?
 
 ### 5. Read the code
 
