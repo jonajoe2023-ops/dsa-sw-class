@@ -84,8 +84,8 @@ If it is lower, install the current LTS from https://nodejs.org and open a new t
 ### 2. Get the code
 
 ```bash
-git clone https://github.com/dejibimbolaAyo/das-2026-capstone-project.git
-cd das-2026-capstone-project
+git clone https://github.com/jonajoe2023-ops/dsa-sw-class.git
+cd dsa-sw-class
 ```
 
 There is nothing to `npm install`. The project uses no outside packages.
